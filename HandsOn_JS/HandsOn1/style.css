@@ -1,0 +1,44 @@
+body {
+    background-color: darkgrey;
+}
+#main {
+    text-align: center;
+
+}
+#successMessage{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(79, 241, 4);
+}
+#eventName{
+    border-radius: 3px;
+}
+button {
+    border-radius: 10px;
+}
+button:hover {
+    background-color: bisque;
+    color: darkblue;
+}
+#result{
+    text-align: center;
+}
+#resultTable,
+#resulTable tbody{
+    background-color:aliceblue;
+    margin: 0px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+#resultTable th {
+    font-size: large;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#resultTable tr {
+   text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

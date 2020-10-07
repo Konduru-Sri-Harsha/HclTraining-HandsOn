@@ -1,0 +1,28 @@
+body {
+    background-color: darkgrey;
+}
+#main {
+    text-align: center;
+
+}
+#successMessage{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(79, 241, 4);
+}
+#eventName{
+    border-radius: 3px;
+}
+button {
+    border-radius: 10px;
+}
+button:hover {
+    background-color: bisque;
+    color: darkblue;
+}
+#resultList{
+    display: inline-block;
+    padding-left: 40%;
+    margin: 0px auto;
+    
+}
