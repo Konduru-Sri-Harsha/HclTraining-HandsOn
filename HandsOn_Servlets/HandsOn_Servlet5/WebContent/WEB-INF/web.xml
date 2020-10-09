@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>HandsOn_Servlet5</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<context-param>
+		<param-name>10-10-2020</param-name>
+		<param-value>EI Paso Nightlife,The Walt Disney Concert Hall,100/Plaza Classic Film Festival,The Oslo Opera House,400</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>11-10-2020</param-name>
+		<param-value>Plaza Classic Film Festival,The Oslo Opera House,400/Magic Show,The Magic Hall,200</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>12-10-2020</param-name>
+		<param-value>EI Paso Nightlife,The Walt Disney Concert Hall,300</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>13-10-2020</param-name>
+		<param-value>EI Paso Nightlife,The Walt Disney Concert Hall,100/Plaza Classic Film Festival,The Oslo Opera House,400/Music Concert,The Robert Hall,300</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>14-10-2020</param-name>
+		<param-value>Music Concert,The Robert Hall,300/Plaza Classic Film Festival,The Oslo Opera House,400/Magic Show,The Magic Hall,200</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>15-10-2020</param-name>
+		<param-value>EI Paso asdasdae,The Walt Disney Concert Hall,300/Plaza Classsdasd lm Festival,The Oslo Opera House,700/Music Concert,The Robert Hall,300/Magic Show,The Magic Hall,200</param-value>
+	</context-param>
+</web-app>
